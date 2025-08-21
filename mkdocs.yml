@@ -28,6 +28,18 @@ plugins:
   - search
 
 # 导航配置
+nav:
+  - 首页: index.md
+  - 入门指南:
+      - 安装: rumen/install.md
+      - 基础配置: rumen/config.md
+  - 插件列表:
+      - 优化类插件:
+          - ‘[睡眠管理]AdvancedSleep插件‘: plugins/youhua/AdvancedSleep.md
+      - 表单类插件:
+          - Contact Form 7: plugins/qita/other.md
+  - API参考: api.md
+  - 常见问题: faq.md
 
 # 扩展
 markdown_extensions:
@@ -38,3 +50,4 @@ markdown_extensions:
       use_pygments: true
   - pymdownx.tabbed: # 启用内容标签页
       alternate_style: true
+
