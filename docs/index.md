@@ -1,4 +1,4 @@
-# Welcome to MkDocs
+# 欢迎来到EthanAxe的插件wiki
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
